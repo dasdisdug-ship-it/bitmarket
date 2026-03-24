@@ -8,6 +8,7 @@ header {
     padding: 25 147 25 147;
     margin-bottom: 20px;
     display: flex;
+    align-items: center;
 }
 
 .button {
@@ -32,6 +33,7 @@ nav {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 h1 {
@@ -49,8 +51,9 @@ p {
 .info {
     flex-wrap: wrap;
     width: 1100px;
-    margin: 85px 40px 45px 70px;
     display: flex;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
 }
 
 article {
